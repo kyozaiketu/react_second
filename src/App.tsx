@@ -1,4 +1,4 @@
-
+import { Button } from 'antd-mobile'
 
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+      <Button color={'warning'}>click me</Button>
       WO shi app
     </>
   )
